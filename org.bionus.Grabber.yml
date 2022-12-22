@@ -1,14 +1,14 @@
 app-id: org.bionus.Grabber
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: '5.15-22.08'
 sdk: org.kde.Sdk
 command: Grabber
 rename-icon: grabber
 
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node14
+  - org.freedesktop.Sdk.Extension.node16
 build-options:
-  append-path: /usr/lib/sdk/node14/bin
+  append-path: /usr/lib/sdk/node16/bin
   build-args:
     - --share=network
 
